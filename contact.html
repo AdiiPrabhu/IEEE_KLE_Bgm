@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Reenie+Beanie&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<link rel="icon" href="./images/fav2.png" type="image/x-icon" />
+
+<!-- Navbar -->
+
+ <header class="header-area header-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="main-nav">
+                            <!-- ***** Logo Start ***** -->
+                            <a href="index.html" class="logo">I<em>EEE</em>
+                                <span style="font-family: 'Do Hyeon', sans-serif; font-size: 14px; bottom: 12px; position: relative; text-transform: none;"> 
+                                    Student Branch
+                                </span>
+                                <span style="font-family: 'Do Hyeon', sans-serif; font-size: 14px; bottom: -3px;position: relative; right: 97px;">KLE <em>Dr.M.S.S.C.E.T</em></span>
+                            </a>
+                            
+                            <!-- ***** Logo End ***** -->
+                            <!-- ***** Menu Start ***** -->
+                            <ul class="nav">
+                                <li class="scroll-to-section"><a href="index.html">Home</a></li>
+                                <li class="scroll-to-section"><a href="index.html">About</a></li>
+                                <li class="scroll-to-section"><a href="index.html">Events</a></li>
+                                <li class="scroll-to-section"><a href="Team.html">Team</a></li>
+                                <li class="scroll-to-section"><a href="" class="active">Blog</a></li>
+                                <li class="scroll-to-section"><a href="index.html">Contact</a></li> 
+                                <!-- <li class="main-button"><a href="#">Sign Up</a></li> -->
+                            </ul>        
+                           
+                            <!-- ***** Menu End ***** -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+<body class="contact-us">
+  <!-- ..... Loading Page .....  -->
+  <section class="loading-page">
+    <div id="loader">
+      <img class="load-img" src="images/logo.png" alt="" />
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <lottie-player class="mt-3" src="https://assets5.lottiefiles.com/packages/lf20_ObshHL.json"
+        background="transparent" speed="1" loop autoplay>
+      </lottie-player>
+    </div>
+  </section>
+
+  <div class="loop6" data-aos="fade-right" data-aos-duration="1000"></div>
+  <div class="loop7 d-none d-md-block" data-aos="fade-left" data-aos-duration="1000"></div>
+  <div class="loop8"></div>
+  <div class="circle4" data-aos="fade-up" data-aos-duration="1000"></div>
+  <img src="./images/logo2.png" alt="" width="80" class="logo2" data-aos="zoom-in" data-aos-duration="1000" />
+
+  <form class="bg-main shadow-lg p-5">
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required />
+    </div>
+    <div class="form-group">
+      <label for="usn">USN</label>
+      <input type="text" class="form-control" id="usn" name="usn" placeholder="Enter USN" required />
+    </div>
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
+        placeholder="Enter email" />
+    </div>
+    <div class="form-group">
+      <label for="phone">Contact Number</label>
+      <input type="text" class="form-control" id="phone" name="phone" placeholder="Enter phone number" />
+    </div>
+    <div class="form-group">
+      <label for="comments" id="suggest">Comments</label>
+      <textarea class="form-control" id="comments" name="comments" rows="8" cols="80"
+        placeholder="Comments if any..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-warning">Submit</button>
+    <br /><br />
+  </form>
+
+  <iframe class="map mt-3 mt-md-0"
+    src="https://maps.google.com/maps?q=kle%20engineering%20belgaum&t=&z=13&ie=UTF8&iwloc=&output=embed "
+    width="600" height="450" frameborder="0" style="border: 0;" allowfullscreen=""></iframe>
+  <br /><br />
+
+  <footer class="mt-5">
+    <div class="footer" id="faculty-details">
+      <h5>Other IEEE Pages</h5>
+      <ul id="link" class="list-unstyled quick-links">
+        <li>
+          <a href="https://www.ieee.org/"><i class="fa fa-angle-double-right"></i>IEEE International</a>
+        </li>
+        <li>
+          <a href="https://www.ieeer10.org/"><i class="fa fa-angle-double-right"></i>IEEE Region 10</a>
+        </li>
+        <li>
+          <a href="https://site.ieee.org/indiacouncil/"><i class="fa fa-angle-double-right"></i>IEEE India Council</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer">
+      <h4>Follow Us</h4>
+      <div class="icons">
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <img src="images/logo.png" alt="Logo" height="100%" width="100%" />
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
